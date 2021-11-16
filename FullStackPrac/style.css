@@ -1,0 +1,132 @@
+* {
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+body {
+    margin: 0%;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    padding: 30px;
+    background-color: #262626;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+nav * {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+
+nav a:hover {
+    transition: 250ms;
+    cursor: pointer;
+    color: #FF2B6E;
+}
+
+nav img {
+    margin-right: auto;
+    /* height: 100%; */
+}
+
+#bgDiv {
+    z-index: 0;
+    width: 100%;
+    background-image: url(./can-nurses-wear-earrings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    background-position: top;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+}
+
+#new {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    /* padding: 20px 0px; */
+    justify-content: space-between;
+    /* border: solid 2px #FF2B6E; */
+    width: 100%;
+    box-sizing: border-box;
+}
+#mid
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#mid h1{
+    color: white;
+    font-size: 100px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.288);
+    margin: 0%;
+}
+#readmore{
+    color: white;
+    border: solid 5px white;
+    padding: 20px 40px;
+    font-weight: bolder;
+}
+#readmore:hover{
+    transition: 250ms;
+    cursor: pointer;
+    color: #FF2B6E;
+    border: solid 5px #FF2B6E;
+}
+#left{
+    background-color: white;
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#left a:hover {
+    transition: 250ms;
+    cursor: pointer;
+    color: #FF2B6E;
+}
+
+#right{
+    background-image: url(./20190409142925-three.jpeg);
+    width: 250px;
+    height: 250px;
+    border: solid 10px white;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#nextBtn{
+    background-color: #FF2B6E;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#nextBtn:hover{
+    background-color: white;
+    color: #FF2B6E;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+#logo{
+    height: 50px;
+}
